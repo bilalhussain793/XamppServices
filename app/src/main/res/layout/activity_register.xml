@@ -34,14 +34,14 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPassword"
-                android:hint="password" />
+                android:hint="Password" />
 
             <EditText
                 android:id="@+id/signup_input_age"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="dob"/>
+                android:hint="Age"/>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
                 android:paddingRight="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="gender"
+                android:text="Gender"
                 android:fontFeatureSettings="password"
                 android:textSize="20dp"
                 android:fontFamily="password"/>
@@ -65,14 +65,14 @@
                     android:id="@+id/male_radio_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="male"
+                    android:text="Male"
                     android:checked="true"
                     />
                 <RadioButton
                     android:id="@+id/female_radio_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text = "female"
+                    android:text = "Female"
                     />
             </RadioGroup>
         </RelativeLayout>
@@ -87,7 +87,6 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="login"
-            android:background="@null"
             android:layout_marginTop="3dp"
             android:textColor="@android:color/black"/>
     </LinearLayout>
